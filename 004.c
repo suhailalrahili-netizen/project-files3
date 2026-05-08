@@ -24,7 +24,7 @@ int main(){
         fread(ptr,sizeof(struct employee), 1,fh);
         fclose(fh);
         printf("id: %x\n", sptr->id);
-        printf("id: %c\n", sptr->name);
+        printf("char: %c\n", sptr->name);
         printf("id: %x\n", sptr->age);
      }
     
